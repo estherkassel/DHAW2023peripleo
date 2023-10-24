@@ -1,0 +1,59 @@
+{
+    "@id": "https://w3id.org/mycsvfile",
+    "type": "FeatureCollection",
+    "@context": "https://w3id.org/locolligo/contexts/linkedplaces.jsonld",
+    "features": [
+        {
+            "@id": "https://w3id.org/mycsvfile/01b00323-7731-490f-bf1c-c7c40c3de2ef",
+            "type": "Feature",
+            "properties": {
+                "title": "Athenae",
+                "url": "https://pleiades.stoa.org/places/579885"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7239851818,
+                    37.9727465455
+                ]
+            },
+            "depictions": [
+                {
+                    "@id": "https://cdn.britannica.com/66/102266-050-FBDEFCA1/acropolis-city-state-Greece-Athens.jpg"
+                }
+            ]
+        },
+        {
+            "@id": "https://w3id.org/mycsvfile/d2d14ec4-31cf-4b4e-ba6f-8478e6e23408",
+            "type": "Feature",
+            "properties": {
+                "title": "Lyktos",
+                "url": "https://pleiades.stoa.org/places/589918",
+                "depictions": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/%CE%92%CE%BF%CF%85%CE%BB%CE%B5%CF%85%CF%84%CE%AE%CF%81%CE%B9%CE%BF%2C_%CE%9B%CF%8D%CF%84%CF%84%CE%BF%CF%82_0214.jpg/220px-%CE%92%CE%BF%CF%85%CE%BB%CE%B5%CF%85%CF%84%CE%AE%CF%81%CE%B9%CE%BF%2C_%CE%9B%CF%8D%CF%84%CF%84%CE%BF%CF%82_0214.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.37034,
+                    35.212883
+                ]
+            }
+        }
+    ],
+    "indexing": {
+        "@type": "Dataset",
+        "name": "mycsvfile",
+        "description": "",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "identifier": "https://w3id.org/mycsvfile",
+        "temporalCoverage": "1066/2022",
+        "spatialCoverage": {
+            "@type": "GeoShape",
+            "box": "0.580101 0.00149 60.355 9.78667",
+            "geo": {
+                "@type": "GeoShape",
+                "box": "35.212883 23.7239851818 37.9727465455 25.37034"
+            }
+        }
+    }
+}
